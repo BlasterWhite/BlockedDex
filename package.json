@@ -1,0 +1,35 @@
+{
+  "name": "kc_out",
+  "version": "1.0.0",
+  "description": "To take a look: - https://playwright.dev/docs/chrome-extensions",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "build": "webpack --mode production",
+    "start": "webpack serve --mode development --open",
+    "test": "npx playwright test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BlasterWhite/BlockedDex.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/BlasterWhite/BlockedDex/issues"
+  },
+  "homepage": "https://github.com/BlasterWhite/BlockedDex#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.50.0",
+    "css-loader": "^7.1.2",
+    "style-loader": "^4.0.0",
+    "ts-loader": "^9.5.2",
+    "webpack": "^5.97.1",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.0"
+  }
+}
